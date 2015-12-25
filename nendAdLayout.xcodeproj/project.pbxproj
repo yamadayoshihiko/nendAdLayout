@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25AEB95884C10CA6BC7DBECE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 309FB04F0D0B9F56236FAFF4 /* libPods.a */; };
+		B11651491C22E39700DD7BE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11651481C22E39700DD7BE4 /* main.m */; };
+		B116514C1C22E39700DD7BE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B116514B1C22E39700DD7BE4 /* AppDelegate.m */; };
+		B116514F1C22E39700DD7BE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B116514E1C22E39700DD7BE4 /* ViewController.m */; };
+		B11651521C22E39700DD7BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11651501C22E39700DD7BE4 /* Main.storyboard */; };
+		B11651541C22E39700DD7BE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11651531C22E39700DD7BE4 /* Images.xcassets */; };
+		B11651571C22E39700DD7BE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B11651551C22E39700DD7BE4 /* LaunchScreen.xib */; };
+		B11651631C22E39800DD7BE4 /* nendAdLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11651621C22E39800DD7BE4 /* nendAdLayoutTests.m */; };
+		B1E184851C2CF61B0004E588 /* 100x160.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1847A1C2CF61B0004E588 /* 100x160.png */; };
+		B1E184861C2CF61B0004E588 /* 140x44.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1847B1C2CF61B0004E588 /* 140x44.png */; };
+		B1E184871C2CF61B0004E588 /* 160x50.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1847C1C2CF61B0004E588 /* 160x50.png */; };
+		B1E184881C2CF61B0004E588 /* 320x100.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1847D1C2CF61B0004E588 /* 320x100.png */; };
+		B1E184891C2CF61B0004E588 /* opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1847E1C2CF61B0004E588 /* opacity.png */; };
+		B1E1848E1C2CF61B0004E588 /* tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E184831C2CF61B0004E588 /* tutorial.png */; };
+		B1E1848F1C2CF61B0004E588 /* white-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E184841C2CF61B0004E588 /* white-640x1136.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B116515D1C22E39800DD7BE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B116513B1C22E39700DD7BE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11651421C22E39700DD7BE4;
+			remoteInfo = nendAdLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309FB04F0D0B9F56236FAFF4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		483D9F6329AF83BC0FA0BCAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B11651431C22E39700DD7BE4 /* nendAdLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nendAdLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11651471C22E39700DD7BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11651481C22E39700DD7BE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B116514A1C22E39700DD7BE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B116514B1C22E39700DD7BE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B116514D1C22E39700DD7BE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B116514E1C22E39700DD7BE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B11651511C22E39700DD7BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11651531C22E39700DD7BE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B11651561C22E39700DD7BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B116515C1C22E39800DD7BE4 /* nendAdLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nendAdLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11651611C22E39800DD7BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11651621C22E39800DD7BE4 /* nendAdLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nendAdLayoutTests.m; sourceTree = "<group>"; };
+		B1E1847A1C2CF61B0004E588 /* 100x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100x160.png; sourceTree = "<group>"; };
+		B1E1847B1C2CF61B0004E588 /* 140x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 140x44.png; sourceTree = "<group>"; };
+		B1E1847C1C2CF61B0004E588 /* 160x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 160x50.png; sourceTree = "<group>"; };
+		B1E1847D1C2CF61B0004E588 /* 320x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320x100.png; sourceTree = "<group>"; };
+		B1E1847E1C2CF61B0004E588 /* opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opacity.png; sourceTree = "<group>"; };
+		B1E184831C2CF61B0004E588 /* tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial.png; sourceTree = "<group>"; };
+		B1E184841C2CF61B0004E588 /* white-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-640x1136.png"; sourceTree = "<group>"; };
+		EA9BDED3594EF3D42591A976 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11651401C22E39700DD7BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AEB95884C10CA6BC7DBECE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11651591C22E39800DD7BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCBD66D2D59ADF7A1645FFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				309FB04F0D0B9F56236FAFF4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE7182B8254EC6CFBE139DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				483D9F6329AF83BC0FA0BCAC /* Pods.debug.xcconfig */,
+				EA9BDED3594EF3D42591A976 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B116513A1C22E39700DD7BE4 = {
+			isa = PBXGroup;
+			children = (
+				B11651451C22E39700DD7BE4 /* nendAdLayout */,
+				B116515F1C22E39800DD7BE4 /* nendAdLayoutTests */,
+				B11651441C22E39700DD7BE4 /* Products */,
+				AE7182B8254EC6CFBE139DFE /* Pods */,
+				7DCBD66D2D59ADF7A1645FFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B11651441C22E39700DD7BE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11651431C22E39700DD7BE4 /* nendAdLayout.app */,
+				B116515C1C22E39800DD7BE4 /* nendAdLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11651451C22E39700DD7BE4 /* nendAdLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B1E1847A1C2CF61B0004E588 /* 100x160.png */,
+				B1E1847B1C2CF61B0004E588 /* 140x44.png */,
+				B1E1847C1C2CF61B0004E588 /* 160x50.png */,
+				B1E1847D1C2CF61B0004E588 /* 320x100.png */,
+				B1E1847E1C2CF61B0004E588 /* opacity.png */,
+				B1E184831C2CF61B0004E588 /* tutorial.png */,
+				B1E184841C2CF61B0004E588 /* white-640x1136.png */,
+				B116514A1C22E39700DD7BE4 /* AppDelegate.h */,
+				B116514B1C22E39700DD7BE4 /* AppDelegate.m */,
+				B116514D1C22E39700DD7BE4 /* ViewController.h */,
+				B116514E1C22E39700DD7BE4 /* ViewController.m */,
+				B11651501C22E39700DD7BE4 /* Main.storyboard */,
+				B11651531C22E39700DD7BE4 /* Images.xcassets */,
+				B11651551C22E39700DD7BE4 /* LaunchScreen.xib */,
+				B11651461C22E39700DD7BE4 /* Supporting Files */,
+			);
+			path = nendAdLayout;
+			sourceTree = "<group>";
+		};
+		B11651461C22E39700DD7BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11651471C22E39700DD7BE4 /* Info.plist */,
+				B11651481C22E39700DD7BE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B116515F1C22E39800DD7BE4 /* nendAdLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B11651621C22E39800DD7BE4 /* nendAdLayoutTests.m */,
+				B11651601C22E39800DD7BE4 /* Supporting Files */,
+			);
+			path = nendAdLayoutTests;
+			sourceTree = "<group>";
+		};
+		B11651601C22E39800DD7BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11651611C22E39800DD7BE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11651421C22E39700DD7BE4 /* nendAdLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11651661C22E39800DD7BE4 /* Build configuration list for PBXNativeTarget "nendAdLayout" */;
+			buildPhases = (
+				E99D64FB02695BAFBA1A988A /* Check Pods Manifest.lock */,
+				B116513F1C22E39700DD7BE4 /* Sources */,
+				B11651401C22E39700DD7BE4 /* Frameworks */,
+				B11651411C22E39700DD7BE4 /* Resources */,
+				C3A01C846BC9FB4CD2F1EDB9 /* Embed Pods Frameworks */,
+				A69B86DB71DDCC8E6399AF47 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nendAdLayout;
+			productName = nendAdLayout;
+			productReference = B11651431C22E39700DD7BE4 /* nendAdLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B116515B1C22E39800DD7BE4 /* nendAdLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11651691C22E39800DD7BE4 /* Build configuration list for PBXNativeTarget "nendAdLayoutTests" */;
+			buildPhases = (
+				B11651581C22E39800DD7BE4 /* Sources */,
+				B11651591C22E39800DD7BE4 /* Frameworks */,
+				B116515A1C22E39800DD7BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B116515E1C22E39800DD7BE4 /* PBXTargetDependency */,
+			);
+			name = nendAdLayoutTests;
+			productName = nendAdLayoutTests;
+			productReference = B116515C1C22E39800DD7BE4 /* nendAdLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B116513B1C22E39700DD7BE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yy;
+				TargetAttributes = {
+					B11651421C22E39700DD7BE4 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B116515B1C22E39800DD7BE4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B11651421C22E39700DD7BE4;
+					};
+				};
+			};
+			buildConfigurationList = B116513E1C22E39700DD7BE4 /* Build configuration list for PBXProject "nendAdLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B116513A1C22E39700DD7BE4;
+			productRefGroup = B11651441C22E39700DD7BE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11651421C22E39700DD7BE4 /* nendAdLayout */,
+				B116515B1C22E39800DD7BE4 /* nendAdLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11651411C22E39700DD7BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E1848E1C2CF61B0004E588 /* tutorial.png in Resources */,
+				B11651521C22E39700DD7BE4 /* Main.storyboard in Resources */,
+				B11651571C22E39700DD7BE4 /* LaunchScreen.xib in Resources */,
+				B1E184861C2CF61B0004E588 /* 140x44.png in Resources */,
+				B1E184851C2CF61B0004E588 /* 100x160.png in Resources */,
+				B11651541C22E39700DD7BE4 /* Images.xcassets in Resources */,
+				B1E184871C2CF61B0004E588 /* 160x50.png in Resources */,
+				B1E184881C2CF61B0004E588 /* 320x100.png in Resources */,
+				B1E184891C2CF61B0004E588 /* opacity.png in Resources */,
+				B1E1848F1C2CF61B0004E588 /* white-640x1136.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B116515A1C22E39800DD7BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A69B86DB71DDCC8E6399AF47 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A01C846BC9FB4CD2F1EDB9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99D64FB02695BAFBA1A988A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B116513F1C22E39700DD7BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116514F1C22E39700DD7BE4 /* ViewController.m in Sources */,
+				B116514C1C22E39700DD7BE4 /* AppDelegate.m in Sources */,
+				B11651491C22E39700DD7BE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11651581C22E39800DD7BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11651631C22E39800DD7BE4 /* nendAdLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B116515E1C22E39800DD7BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11651421C22E39700DD7BE4 /* nendAdLayout */;
+			targetProxy = B116515D1C22E39800DD7BE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B11651501C22E39700DD7BE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11651511C22E39700DD7BE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B11651551C22E39700DD7BE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11651561C22E39700DD7BE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11651641C22E39800DD7BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B11651651C22E39800DD7BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11651671C22E39800DD7BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483D9F6329AF83BC0FA0BCAC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = nendAdLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B11651681C22E39800DD7BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9BDED3594EF3D42591A976 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = nendAdLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B116516A1C22E39800DD7BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nendAdLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nendAdLayout.app/nendAdLayout";
+			};
+			name = Debug;
+		};
+		B116516B1C22E39800DD7BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nendAdLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nendAdLayout.app/nendAdLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B116513E1C22E39700DD7BE4 /* Build configuration list for PBXProject "nendAdLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11651641C22E39800DD7BE4 /* Debug */,
+				B11651651C22E39800DD7BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11651661C22E39800DD7BE4 /* Build configuration list for PBXNativeTarget "nendAdLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11651671C22E39800DD7BE4 /* Debug */,
+				B11651681C22E39800DD7BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11651691C22E39800DD7BE4 /* Build configuration list for PBXNativeTarget "nendAdLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B116516A1C22E39800DD7BE4 /* Debug */,
+				B116516B1C22E39800DD7BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B116513B1C22E39700DD7BE4 /* Project object */;
+}
