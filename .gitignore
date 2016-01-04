@@ -18,6 +18,9 @@ doc/
 .idea
 .secret
 
+# for xcode
+nendAdLayout.xcodeproj/xcuserdata/
+
 # for Pods
 Podfile.lock
 Pods/
