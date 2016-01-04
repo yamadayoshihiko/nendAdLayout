@@ -351,9 +351,12 @@ const NSInteger AD_TYPE3 = 3;
 {
     NSLog(@"doubleTapCallback/sender:%@", sender);
     
+    // 端末画面サイズを取得する
+    CGRect deviceRect = [[UIScreen mainScreen] bounds];
+    
     // 横を幅いっぱいに拡大するので同じ比率で縦の高さを計算する
     float scale = 1.0;
-    float width = 320;
+    float width = deviceRect.size.width;
     float height = 1;
     NSNumber* index = [[NSNumber alloc] initWithLong:sender.view.tag];
     UIImageView* imageView = self.dict[index];
@@ -363,7 +366,7 @@ const NSInteger AD_TYPE3 = 3;
             NSLog(@"doubleTapCallback/began");
             break;
         case UIGestureRecognizerStateEnded:
-            scale = 320.0 / imageView.frame.size.width;
+            scale = deviceRect.size.width / imageView.frame.size.width;
             height = imageView.frame.size.height * scale;
             imageView.frame = CGRectMake(0, imageView.frame.origin.y, width, height);
             break;
