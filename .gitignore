@@ -18,3 +18,8 @@ doc/
 .idea
 .secret
 
+# for Pods
+Podfile.lock
+Pods/
+nendAdLayout.xcworkspace/
+
